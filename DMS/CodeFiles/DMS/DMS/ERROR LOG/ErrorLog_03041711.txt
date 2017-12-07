@@ -1,0 +1,22 @@
+
+Log Entry : 
+04/03/2017 11:10:30
+AuditReportfrmPrint  GetAuditFinding http://localhost:12801/ISO/AuditReportfrmPrint.aspx?q=Kars_11&p=18. Error Message:Value cannot be null.
+Parameter name: expression
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.iso_auditreportfrmprint_aspx.__DataBind__control49(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx:line 233
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at DMS.ISO.AuditReportfrmPrint.GetAuditFinding() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx.cs:line 85
+__________________________

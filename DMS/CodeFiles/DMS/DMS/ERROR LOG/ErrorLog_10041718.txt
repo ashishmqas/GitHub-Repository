@@ -1,0 +1,112 @@
+
+Log Entry : 
+04/10/2017 18:01:40
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:01:40
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:01:40
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:01:40
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:01:40
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:02:05
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:02:05
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:02:05
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:02:05
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:02:05
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e)
+__________________________
+
+Log Entry : 
+04/10/2017 18:28:25
+_default  btnLogin_Click http://localhost:12801/default.aspx. Error Message:There was no endpoint listening at http://localhost:9464/UserLogin.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at DMS.UserLoginService.IUserLogin.LoginUserDetails(UserDetails composite)
+   at DMS.UserLoginService.UserLoginClient.LoginUserDetails(UserDetails composite) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\Service References\UserLoginService\Reference.cs:line 116
+   at DMS._default.btnLogin_Click(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\default.aspx.cs:line 44
+__________________________

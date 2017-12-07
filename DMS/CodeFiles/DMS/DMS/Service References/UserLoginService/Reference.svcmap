@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1cafec70-1fac-4741-9e15-05bac1f30ebc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9464/UserLogin.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserLogin.disco" MetadataType="Disco" ID="e8f87dd0-05eb-486f-8c0a-16b394c42642" SourceId="1" SourceUrl="http://localhost:9464/UserLogin.svc?disco" />
+    <MetadataFile FileName="UserLogin.xsd" MetadataType="Schema" ID="ca0d7f87-ba0b-436b-93a5-1fc8eb5380f9" SourceId="1" SourceUrl="http://localhost:9464/UserLogin.svc?xsd=xsd1" />
+    <MetadataFile FileName="UserLogin1.xsd" MetadataType="Schema" ID="d45f7ae6-fcf9-495a-8a46-eae4b0021eae" SourceId="1" SourceUrl="http://localhost:9464/UserLogin.svc?xsd=xsd3" />
+    <MetadataFile FileName="UserLogin2.xsd" MetadataType="Schema" ID="ef6cd185-fba4-4d74-a8f7-3f8fe5aa757a" SourceId="1" SourceUrl="http://localhost:9464/UserLogin.svc?xsd=xsd0" />
+    <MetadataFile FileName="UserLogin3.xsd" MetadataType="Schema" ID="c459bd12-627b-488f-9576-5fbcd9fd2882" SourceId="1" SourceUrl="http://localhost:9464/UserLogin.svc?xsd=xsd2" />
+    <MetadataFile FileName="UserLogin.wsdl" MetadataType="Wsdl" ID="cd6bb8a3-f01e-484e-b33c-2a201325e292" SourceId="1" SourceUrl="http://localhost:9464/UserLogin.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

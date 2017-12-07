@@ -1,0 +1,234 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="DMS.Master.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>DMS</title>
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/foundation/stylesheets/foundation.css") %>" />
+    <!-- jquery UI -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/lib/jQueryUI/css/Aristo/Aristo.css") %>" media="all" />
+    <!-- fancybox -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/css/fancybox/jquery.fancybox.css") %>" />
+    <%--<link rel="stylesheet" href="<%=Page.ResolveUrl("/lib/fancybox/jquery.fancybox-1.3.4.css") %>" media="all" />--%>
+    <!-- plupload -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/lib/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css") %>" media="all" />
+    <!-- tooltips -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/lib/qtip2/jquery.qtip.min.css") %>" />
+    <!-- chosen (select element extended) -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/lib/chosen/chosen.css") %>" media="all" />
+    <!-- ibuttons -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/lib/ibutton/css/jquery.ibutton.css") %>" media="all" />
+    <!-- datatables -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/lib/datatables/css/demo_table_jui.css") %>" media="all" />
+
+
+
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/Menu/src/css/sm-blue/sm-blue.css") %>" />
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/Menu/src/css/sm-core-css.css") %>" />
+    <!-- main styles -->
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/css/style.css") %>" />
+    <%--<link rel="stylesheet" href="<%=Page.ResolveUrl("/Menu/droplinetabs.css") %>" />--%>
+
+    <!-- Google fonts -->
+    <%-- <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' />
+    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' />--%>
+
+    <!-- Favicons and the like (avoid using transparent .png) -->
+    <link rel="shortcut icon" href="<%=Page.ResolveUrl("favicon.ico")%>" />
+    <link rel="apple-touch-icon-precomposed" href="<%=Page.ResolveUrl("icon.png")%>" />
+    <%-- <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui.js"></script>--%>
+
+    <script src="<%=Page.ResolveUrl("/js/jquery.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/jQueryUI/jquery-ui-1.8.18.custom.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/s_scripts.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/jquery.ui.extend.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/qtip2/jquery.qtip.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/jquery.customforms.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/plupload/js/plupload.full.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/plupload/js/jquery.plupload.queue/jquery.plupload.queue.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/ibutton/jquery.ibutton.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/tiny_mce/jquery.tinymce.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/ui.spinner.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/raty/jquery.raty.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/chosen/chosen.jquery.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/jquery.inputmask.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/jquery.inputmask.extentions.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/jquery.rwd-table.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/datatables/js/jquery.dataTables.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/datatables/js/dataTables.plugins.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/lib/datatables/extras/ColVis/media/js/ColVis.min.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/jquery.validate.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/pertho.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/css/fancybox/jquery.fancybox.js")%>"></script>
+    <%--<script src="<%=Page.ResolveUrl("/Menu/droplinemenu.js")%>"></script>--%>
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/css/bootstrap-button.css") %>" />
+
+
+    <script src="<%=Page.ResolveUrl("/Menu/src/jquery.smartmenus.js")%>"></script>
+    <script src="<%=Page.ResolveUrl("/js/bootstrap.min.js")%>"></script>
+    <link rel="stylesheet" href="<%=Page.ResolveUrl("/css/bootstrap-multiselect.css") %>" />
+    <script src="<%=Page.ResolveUrl("/js/bootstrap-multiselect.js")%>"></script>
+    <%--  <script src="<%=Page.ResolveUrl("/js/fancybox.js")%>"></script>--%>
+    <script>
+        $(document).ready(function () {
+            $('#main-menu').smartmenus({
+                subMenusSubOffsetX: 1,
+                subMenusSubOffsetY: -8
+            });
+            var activeIndex = parseInt($('#<%=hidAccordionIndex.ClientID %>').val());
+            var act = 0;
+            $(".abc").accordion({
+                collapsible: true,
+                heightStyle: "content", header: "h3", animate: 200,
+                active: activeIndex,
+                activate: function (event, ui) {
+                    var index = jQuery(this).find("h3").index(ui.newHeader[0]);
+                    $('#<%=hidAccordionIndex.ClientID %>').val(index);
+                }
+            });
+            $(".xyz").accordion({
+                collapsible: false,
+                heightStyle: "content", header: "h4", animate: 200,
+                active: activeIndex,
+                activate: function (event, ui) {
+                    //    var index = jQuery(this).find("h3").index(ui.newHeader[0]);
+                    //    var index1 = jQuery(this).find("h3 h3").index(ui.newHeader[0]);
+                    <%-- $('#<%=hidAccordionIndex.ClientID %>').val(index);--%>
+                    //alert(index + " " + index1);
+                }
+            });
+            $('.accordion h3 a,.accordion h3 a').append('<img src="../../img/blank.gif" />');
+            //* common functions
+            prth_common.init();
+            prth_chosen_select.init();
+            prth_mask_input.init();
+            //wysiwyg editor
+            prth_editor.html();
+            //prth_wizard.simple();
+            // prth_wizard.steps_nb();
+            // prth_fileUpload.init();
+            //clear form
+            prth_clearForm.init();
+
+            jQuery("label[for='myalue']").html("<%=( Session["empname"]!=null)?"Welcome, "+ Session["empname"].ToString():""%>");
+        });
+
+        //droplinemenu.buildmenu("droplinetabs1")
+        function showpp() {
+            $(".fancybox").fancybox();
+        }
+        function showNotification(msg, type) {
+            if (type == 'error') {
+                if (jQuery('#div_error').hasClass('alert-box success') || jQuery('#div_error').hasClass('alert-box warning')) {
+                    jQuery('#div_error').removeClass('alert-box success');
+                    jQuery('#div_error').removeClass('alert-box warning');
+                }
+                jQuery('#div_error').addClass('alert-box error');
+            } else if (type == 'success') {
+                if (jQuery('#div_error').hasClass('alert-box error') || jQuery('#div_error').hasClass('alert-box warning')) {
+                    jQuery('#div_error').removeClass('alert-box error');
+                    jQuery('#div_error').removeClass('alert-box warning');
+                }
+                jQuery('#div_error').addClass('alert-box success');
+            }
+            else if (type == 'warning') {
+                if (jQuery('#div_error').hasClass('alert-box success') || jQuery('#div_error').hasClass('alert-box error')) {
+                    jQuery('#div_error').removeClass('alert-box success');
+                    jQuery('#div_error').removeClass('alert-box error');
+                }
+                jQuery('#div_error').addClass('alert-box warning');
+            }
+            jQuery('#div_error').html(msg);
+            jQuery('.alert-box').fadeIn();
+            jQuery('.alert-box').fadeOut(30000);
+        }
+
+
+      
+
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="ptrn_b grdnt_a mhover_a fullW">
+    <form id="form1" runat="server" class="nice" enctype="multipart/form-data">
+
+
+        <header>
+            <div class="container head_s_a">
+                <div class="row "><%--sepH_b--%>
+                    <div class="four columns">
+                        <div class="row">
+                            <div class="five phone-two columns">
+                                <div id="logo">
+                                    <img src="../../img/company_logo.gif" alt="Company Logo" width="202" height="20" />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="six columns">
+                        <div class="row">
+                            <div style="padding: 34px 40px 0 16px;">
+                                <%--<img src="../../img/int.png" alt="MQAS" />--%>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="two columns">
+                        <div class="user_box cf">
+                          
+                            <p class="sepH_a">
+                                <strong>
+                                    <label for="myalue" style="vertical-align: middle"></label>
+                                </strong>
+                            </p>
+                            <span>
+                                <a href="/pages/change_password.aspx" class="sep fancybox fancybox.iframe" onclick="showpp();">Change Password</a>
+                              <%--  <asp:LinkButton ID="lnk_signout" runat="server" OnClick="lnk_signout_Click" Text="Log Out"
+                                    Style="display: inline"></asp:LinkButton>--%>
+
+                            </span>
+                           
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="twelve columns">
+                          <asp:HiddenField ID="hidAccordionIndex" runat="server" />
+                         <asp:PlaceHolder runat="server" ID="phMenu"></asp:PlaceHolder>
+                      
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </form>
+  
+ 
+
+
+
+
+</body>
+</html>

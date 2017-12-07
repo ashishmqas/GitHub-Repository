@@ -1,0 +1,58 @@
+
+Log Entry : 
+04/03/2017 18:08:04
+QuotationRequestDAL  SaveQuotationRequestForm http://localhost:12801/ISO/QuotationRequestfrm.aspx?q=Kars_11. Error Message:Failed to convert parameter value from a String to a Int32.
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command, DbTransaction transaction)
+   at DataLayer.QuotationRequestDAL.SaveQuotationRequestForm(QuotationRequestModel qrm)
+__________________________
+
+Log Entry : 
+04/03/2017 18:09:50
+QuotationRequestfrm  SetCompany http://localhost:12801/ISO/QuotationRequestfrm.aspx?q=Kars_11. Error Message:Column 'Sponsor' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.ISO.QuotationRequestfrm.SetCompany() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrm.aspx.cs:line 64
+__________________________
+
+Log Entry : 
+04/03/2017 18:14:46
+QuotationRequestDAL  SaveQuotationRequestForm http://localhost:12801/ISO/QuotationRequestfrm.aspx?q=Kars_11. Error Message:Failed to convert parameter value from a String to a Int32.
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command, DbTransaction transaction)
+   at DataLayer.QuotationRequestDAL.SaveQuotationRequestForm(QuotationRequestModel qrm) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DataLayer\QuotationRequestDAL.cs:line 139
+__________________________
+
+Log Entry : 
+04/03/2017 18:29:12
+AuditReportfrmPrint  SetCompany http://localhost:12801/ISO/AuditReportfrmPrint.aspx?q=Kars_11&p=18. Error Message:Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at DMS.ISO.AuditReportfrmPrint.SetCompany() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx.cs:line 209
+__________________________
+
+Log Entry : 
+04/03/2017 18:43:44
+AuditReportfrmPrint  SetCompany http://localhost:12801/ISO/AuditReportfrmPrint.aspx?q=Kars_11&p=18. Error Message:Object cannot be cast from DBNull to other types.
+   at System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at DMS.ISO.AuditReportfrmPrint.SetCompany() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx.cs:line 209
+__________________________

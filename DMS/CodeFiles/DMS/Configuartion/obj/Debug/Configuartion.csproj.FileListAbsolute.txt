@@ -1,0 +1,5 @@
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\bin\Debug\Configuartion.dll
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\bin\Debug\Configuartion.pdb
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\obj\Debug\Configuartion.csprojResolveAssemblyReference.cache
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\obj\Debug\Configuartion.dll
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\obj\Debug\Configuartion.pdb

@@ -1,0 +1,118 @@
+
+Log Entry : 
+04/05/2017 15:53:05
+AuthorizationDAL  AsignRoleSelectStatement http://localhost:12801/admin/assignroles.aspx. Error Message:@role is not a parameter for procedure sp_assign_roles_select_statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command)
+   at DataLayer.AuthorizationDAL.AsignRoleSelectStatement(AccessControlModel ac) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DataLayer\AuthorizationDAL.cs:line 125
+__________________________
+
+Log Entry : 
+04/05/2017 15:53:05
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:53:05
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:53:23
+AuthorizationDAL  AsignRoleSelectStatement http://localhost:12801/admin/assignroles.aspx. Error Message:@role is not a parameter for procedure sp_assign_roles_select_statement.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command)
+   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command)
+   at DataLayer.AuthorizationDAL.AsignRoleSelectStatement(AccessControlModel ac) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DataLayer\AuthorizationDAL.cs:line 125
+__________________________
+
+Log Entry : 
+04/05/2017 15:53:23
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:53:23
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:54:36
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:54:36
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:56:27
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:56:27
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 100
+__________________________
+
+Log Entry : 
+04/05/2017 15:56:32
+assignroles  GetEmployeeRoles http://localhost:12801/admin/assignroles.aspx. Error Message:Column 'roleid' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.admin.assignroles.GetEmployeeRoles() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 168
+__________________________

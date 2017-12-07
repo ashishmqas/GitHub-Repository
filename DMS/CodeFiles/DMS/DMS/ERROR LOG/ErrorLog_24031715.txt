@@ -1,0 +1,36 @@
+
+Log Entry : 
+03/24/2017 15:57:38
+QuotationRequestfrmPrint  BindRepetorValue http://localhost:12801/ISO/QuotationRequestfrmPrint.aspx?q=Kars_11. Error Message:Unable to cast object of type 'System.Web.UI.WebControls.Label' to type 'System.Web.UI.WebControls.TextBox'.
+   at DMS.ISO.QuotationRequestfrmPrint.BindRepetorValue(String p) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrmPrint.aspx.cs:line 145
+__________________________
+
+Log Entry : 
+03/24/2017 15:58:00
+QuotationRequestfrmPrint  BindRepetorValue http://localhost:12801/ISO/QuotationRequestfrmPrint.aspx?q=Kars_11. Error Message:Unable to cast object of type 'System.Web.UI.WebControls.Label' to type 'System.Web.UI.WebControls.TextBox'.
+   at DMS.ISO.QuotationRequestfrmPrint.BindRepetorValue(String p) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrmPrint.aspx.cs:line 145
+__________________________
+
+Log Entry : 
+03/24/2017 15:58:04
+QuotationRequestfrmPrint  BindRepetorValue http://localhost:12801/ISO/QuotationRequestfrmPrint.aspx?q=Kars_11. Error Message:Unable to cast object of type 'System.Web.UI.WebControls.Label' to type 'System.Web.UI.WebControls.TextBox'.
+   at DMS.ISO.QuotationRequestfrmPrint.BindRepetorValue(String p) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrmPrint.aspx.cs:line 145
+__________________________
+
+Log Entry : 
+03/24/2017 15:58:06
+QuotationRequestfrmPrint  BindRepetorValue http://localhost:12801/ISO/QuotationRequestfrmPrint.aspx?q=Kars_11. Error Message:Unable to cast object of type 'System.Web.UI.WebControls.Label' to type 'System.Web.UI.WebControls.TextBox'.
+   at DMS.ISO.QuotationRequestfrmPrint.BindRepetorValue(String p) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrmPrint.aspx.cs:line 145
+__________________________
+
+Log Entry : 
+03/24/2017 15:58:24
+QuotationRequestfrmPrint  BindRepetorValue http://localhost:12801/ISO/QuotationRequestfrmPrint.aspx?q=Kars_11. Error Message:Unable to cast object of type 'System.Web.UI.WebControls.Label' to type 'System.Web.UI.WebControls.TextBox'.
+   at DMS.ISO.QuotationRequestfrmPrint.BindRepetorValue(String p) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrmPrint.aspx.cs:line 145
+__________________________
+
+Log Entry : 
+03/24/2017 15:58:26
+QuotationRequestfrmPrint  BindRepetorValue http://localhost:12801/ISO/QuotationRequestfrmPrint.aspx?q=Kars_11. Error Message:Unable to cast object of type 'System.Web.UI.WebControls.Label' to type 'System.Web.UI.WebControls.TextBox'.
+   at DMS.ISO.QuotationRequestfrmPrint.BindRepetorValue(String p) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrmPrint.aspx.cs:line 145
+__________________________

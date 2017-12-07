@@ -1,0 +1,53 @@
+
+Log Entry : 
+04/07/2017 18:08:04
+assignroles  GetEmployeeRoles http://localhost:12801/admin/assignroles.aspx. Error Message:Column 'roleid' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.admin.assignroles.GetEmployeeRoles()
+__________________________
+
+Log Entry : 
+04/07/2017 18:32:52
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 105
+__________________________
+
+Log Entry : 
+04/07/2017 18:32:52
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 105
+__________________________
+
+Log Entry : 
+04/07/2017 18:32:52
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 105
+__________________________
+
+Log Entry : 
+04/07/2017 18:32:52
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 105
+__________________________
+
+Log Entry : 
+04/07/2017 18:32:52
+assignroles  gdReviewComments_RowDataBound1 http://localhost:12801/admin/assignroles.aspx. Error Message:Specified argument was out of the range of valid values.
+Parameter name: index
+   at System.Web.UI.ControlCollection.get_Item(Int32 index)
+   at System.Web.UI.WebControls.TableCellCollection.get_Item(Int32 index)
+   at DMS.admin.assignroles.gdReviewComments_RowDataBound1(Object sender, GridViewRowEventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 105
+__________________________

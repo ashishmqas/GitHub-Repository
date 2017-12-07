@@ -1,0 +1,46 @@
+
+Log Entry : 
+03/28/2017 16:46:22
+AuditProgram  BindRepeator http://localhost:12801/ISO/AuditProgram.aspx?q=Kars_11. Error Message:DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'stagename'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.iso_auditprogram_aspx.__DataBind__control20(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditProgram.aspx:line 148
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at DMS.ISO.AuditProgram.BindRepeator() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditProgram.aspx.cs:line 49
+__________________________
+
+Log Entry : 
+03/28/2017 16:48:43
+AuditProgram  BindRepeator http://localhost:12801/ISO/AuditProgram.aspx?q=Kars_11. Error Message:DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'quotation_id'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.iso_auditprogram_aspx.__DataBind__control20(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditProgram.aspx:line 147
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at DMS.ISO.AuditProgram.BindRepeator() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditProgram.aspx.cs:line 49
+__________________________

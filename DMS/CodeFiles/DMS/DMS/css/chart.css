@@ -1,0 +1,82 @@
+﻿.charttable {
+    line-height: 0;
+    border: 1px solid silver;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    border-collapse:collapse;
+    width:100%;
+}
+
+
+.onebox {
+    height: 20px;
+    width: 0px;
+}
+
+.firtcol {
+    float: left;
+    font-size: 10px;
+}
+
+.chartouter {
+    border: 0;
+    float: left;
+    width:900px;
+}
+
+.ucl {
+    border-bottom: 2px solid red;
+}
+.ucltext {
+    font-size: 10px;
+    white-space: nowrap;
+    font-family: sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.captiontext {
+    font-size: 10px;
+    white-space: nowrap;
+    font-family: sans-serif;
+}
+
+.lcl {
+    border-bottom: 2px solid black;
+    font-size: 5px;
+}
+
+.xbar {
+    border-bottom: 2px solid green;
+    font-size: 5px;
+}
+
+.xpoint {
+    height: 5px;
+    width: 5px;
+    background-color: springgreen;
+}
+
+.rangetbl {
+    border: 1px solid red;
+    float: left;
+    font-size: 5px;
+}
+
+.limittbl {
+    border: 1px solid red;
+    float: left;
+}
+
+.charttbl {
+    border: 1px solid yellowgreen;
+}
+
+.rowgridline {
+    border-bottom: 1px solid silver;
+}
+
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}

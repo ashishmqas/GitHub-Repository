@@ -1,0 +1,511 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+    a img, *:link img, *:visited img {
+        border: 0 none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+q::before, q::after, blockquote::before, blockquote::after {
+    content: "";
+}
+
+body {
+    background: gray none repeat scroll 0 0;
+    color: #999;
+    font: 62.5% "Helvetica Neue",helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    color: #999;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 800px;
+}
+
+div.auth {
+    text-align: center;
+}
+
+h1 a, h1 img {
+    display: block;
+    margin: 0 auto 5px;
+    text-align: center;
+}
+
+    h1 a:hover {
+        opacity: 0.7;
+    }
+
+    h1 a img, h1 img {
+        width: 200px;
+    }
+
+h2 {
+    font: 2.8em "Helvetica Neue",helvetica,sans-serif;
+    text-align: center;
+}
+
+h3 {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font: bold 1.4em "Helvetica Neue",helvetica,sans-serif;
+    margin: 20px 0 10px;
+    padding: 20px 0 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+    h3.or {
+        border-top: medium none;
+        color: #999;
+        font-weight: normal;
+        margin: 0 0 10px;
+        padding: 0;
+        text-transform: none;
+    }
+
+h4 {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font: 1.8em/1.4 "Helvetica Neue",helvetica,sans-serif;
+    margin: 20px 0 10px;
+    padding: 20px 0 0;
+    text-align: left;
+}
+
+    h4 strong {
+        font-weight: bold;
+    }
+
+a.handle {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0 2px;
+    padding: 2px 4px;
+    text-decoration: none;
+}
+
+    a.handle:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+        border-color: rgba(0, 0, 0, 0.3);
+        color: #fff;
+    }
+
+div.sign-connections {
+    float: right;
+    margin: 39px 0 0;
+    position: relative;
+    width: 270px;
+}
+
+div.sign-connections-full {
+    margin: 30px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+div.sign-connections p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+a.auth-twitter, .auth-twitter {
+    background: url("/assets/signin/icon-twitter-bird-2x-92655127d1f780fd3a10f20d66a8441d.png") no-repeat scroll 15px 50% / 20px 16px, #1d88b4 url("/assets/button-glass-a3d23ab9b5a91667e4b0244aba623900.png") repeat-x scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 0 0 15px;
+    padding: 10px 15px 10px 40px;
+    text-decoration: none;
+}
+
+    a.auth-twitter:hover, .auth-twitter:hover {
+        background-color: #197ea7;
+        color: #fff;
+    }
+
+    a.auth-twitter:active, .auth-twitter:active {
+        background-color: #15739a;
+    }
+
+a.auth-btn, .auth-button {
+    background: #ea4c89 url("/assets/button-glass-a3d23ab9b5a91667e4b0244aba623900.png") repeat-x scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 0 0 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+    a.auth-btn:hover, .auth-btn:hover {
+        background-color: #df3e7b;
+        color: #fff;
+    }
+
+    a.auth-btn:active, .auth-btn:active {
+        background-color: #c22b65;
+    }
+
+div.sign-connections-full a.alt-link {
+    display: block;
+    font-size: 1.2em;
+    margin: 12px 0 0;
+}
+
+div.sign-connections-up {
+    margin: 30px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+    div.sign-connections-up a.auth-twitter {
+        float: none;
+        margin: 0 auto;
+    }
+
+p.sign-notamember {
+    clear: both;
+    font-size: 1.6em;
+    padding: 30px 0 0;
+    text-align: center;
+}
+
+#form-oldschool {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    float: left;
+    margin: 40px 0 0 0;
+    padding: 30px;
+    width: 400px;
+    height: 100px;
+}
+
+form fieldset {
+    margin: 0 0 15px;
+}
+
+label {
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    font-size: 1.4em;
+    line-height: 1;
+    margin: 0 0 4px;
+}
+
+input.text-input {
+    border: medium none;
+    border-radius: 6px;
+    color: #444;
+    font: 18px "Helvetica Neue",helvetica,sans-serif;
+    margin-right: 8px;
+    outline: medium none;
+    padding: 8px 10px;
+    width: 250px;
+}
+
+input.button {
+    /*background: #ea4c88 url("/assets/button-glass-a3d23ab9b5a91667e4b0244aba623900.png") repeat-x scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font: 1.6em "Helvetica Neue",helvetica,sans-serif;
+    padding: 8px 12px;*/
+    background-color: #4d90fe;
+    background-image: -moz-linear-gradient(center top, #4d90fe, #4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+    font: 1.6em "Helvetica Neue",helvetica,sans-serif;
+    padding: 8px 12px;
+    border: medium none;
+    border-radius: 4px;
+    width:100%;
+}
+input[type="submit"] {
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+    input.button:hover, input.button:focus {
+        /*background-color: #df3e7b;
+        text-decoration: none;*/
+         background-color: #357ae8;
+    background-image: -moz-linear-gradient(center top , #4d90fe, #357ae8);
+    border: 1px solid #2f5bb7;
+    color: #fff;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    }
+
+    input.button:active, a.form-sub:active {
+        background-color: #c22b65;
+        text-decoration: none;
+    }
+
+label a:link, label a:visited {
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 1;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.check {
+    float: left;
+    margin: 10px 0 0 20px;
+}
+
+    .check label {
+        color: #999;
+    }
+
+    .check input {
+        vertical-align: middle;
+    }
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 1.5em 0 0;
+}
+
+    p.message {
+        margin: 2px 0 0;
+    }
+
+    p.alt-link {
+        float: left;
+        margin: 10px 0 0 10px;
+    }
+
+div.form-inline {
+    margin: 20px 0 0;
+}
+
+    div.form-inline form fieldset {
+        display: inline;
+    }
+
+    div.form-inline form input.text-input {
+        width: 180px;
+    }
+
+    div.form-inline form input.button {
+        display: inline;
+    }
+
+form .errorExplanation {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    color: #df3b3b;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.errorExplanation h2 {
+    background: #df3b3b url("/assets/alert-lines-12e9baf25be7e8b4a9ec73e9c2efa782.png") repeat-x scroll left top;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 1;
+    padding: 10px 20px;
+}
+
+.errorExplanation ul {
+    padding: 20px;
+}
+
+    .errorExplanation ul li {
+        list-style: outside none disc;
+        margin: 0 0 5px 20px;
+    }
+
+fieldset.fieldWithErrors {
+    background: #fff url("/images/icon-error.png") no-repeat scroll 20px 50%;
+}
+
+div.notice {
+    background: #df3b3b url("/assets/alert-lines-12e9baf25be7e8b4a9ec73e9c2efa782.png") repeat-x scroll left top;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+    div.notice h2 {
+        font-size: 2em;
+        font-weight: normal;
+        line-height: 1.3;
+        margin: 0 auto;
+        max-width: 940px;
+        text-align: center;
+    }
+
+    div.notice a:link, div.notice a:visited {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+div.error {
+    background-color: #df3b3b;
+}
+
+div.info {
+    background-color: #618fb9;
+}
+
+div.success {
+    background-color: #83b452;
+}
+
+.mod::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+* html .mod {
+    height: 1%;
+}
+
+:first-child + html .mod {
+    min-height: 1px;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+    }
+
+    #main {
+        float: none;
+        padding: 20px;
+        width: auto;
+    }
+
+    h1 a img {
+        width: 185px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    #form-oldschool {
+        border: 0 none;
+        box-sizing: border-box;
+        float: none;
+        margin: 20px 0 0;
+        padding: 30px;
+        width: 100%;
+    }
+
+    div.sign-connections {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        margin-top: 20px;
+        padding: 10px 0 0;
+        width: 100%;
+    }
+
+    form fieldset {
+        margin: 15px 0;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input.text-input {
+        border: medium none;
+        box-sizing: border-box;
+        font: 1.6em "Helvetica Neue",helvetica,sans-serif;
+        margin: 0;
+        padding: 8px 10px;
+        width: 100%;
+    }
+
+    input.button {
+        margin: 15px 0 0;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    a.auth-twitter, .auth-twitter {
+        box-sizing: border-box;
+        font-size: 1.6em;
+        margin: 10px 0 5px;
+        padding: 15px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.form-inline form fieldset, div.form-inline form input.button {
+        display: block;
+    }
+
+    div.form-inline form input.text-input {
+        width: 100%;
+    }
+
+    div.notice h2 {
+        font-size: 12px;
+        line-height: 1.4;
+        margin: 0;
+        width: auto;
+    }
+}

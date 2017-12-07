@@ -1,0 +1,16 @@
+
+Log Entry : 
+04/03/2017 17:11:09
+CommonDAL  IsBaselined http://localhost:12801/ISO/AuditFinding.aspx?api=18. Error Message:There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at DataLayer.CommonDAL.IsBaselined(String AuditProgramId) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DataLayer\CommonDAL.cs:line 60
+__________________________
+
+Log Entry : 
+04/03/2017 17:49:59
+CommonDAL  IsBaselined http://localhost:12801/ISO/AuditFinding.aspx?api=18. Error Message:There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at DataLayer.CommonDAL.IsBaselined(String AuditProgramId) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DataLayer\CommonDAL.cs:line 60
+__________________________

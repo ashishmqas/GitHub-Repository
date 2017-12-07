@@ -1,0 +1,18 @@
+
+Log Entry : 
+03/23/2017 16:24:09
+QuotationRequestDAL  SaveQuotationRequestForm http://localhost:12801/ISO/QuotationRequestfrm.aspx. Error Message:This SqlTransaction has completed; it is no longer usable.
+   at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at DataLayer.QuotationRequestDAL.SaveQuotationRequestForm(QuotationRequestModel qrm)
+__________________________
+
+Log Entry : 
+03/23/2017 16:24:12
+QuotationRequestfrm  btnSave_Click http://localhost:12801/ISO/QuotationRequestfrm.aspx. Error Message:This SqlTransaction has completed; it is no longer usable.
+   at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at DataLayer.QuotationRequestDAL.SaveQuotationRequestForm(QuotationRequestModel qrm)
+   at BusinessLayer.QuotationRequestBL.SaveQuotationRequestForm(QuotationRequestModel qrm) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\BusinessLayer\QuotationRequestBL.cs:line 38
+   at DMS.ISO.QuotationRequestfrm.btnSave_Click(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrm.aspx.cs:line 241
+__________________________

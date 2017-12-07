@@ -1,0 +1,9 @@
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\bin\Debug\Configuartion.dll
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\bin\Debug\Configuartion.pdb
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\obj\Debug\Configuartion.dll
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\obj\Debug\Configuartion.pdb
+D:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\Configuartion\obj\Debug\ModelEntity.csprojResolveAssemblyReference.cache
+D:\Project\Rigil\DMS\CodeFiles\DMS\Configuartion\bin\Debug\Configuartion.dll
+D:\Project\Rigil\DMS\CodeFiles\DMS\Configuartion\bin\Debug\Configuartion.pdb
+D:\Project\Rigil\DMS\CodeFiles\DMS\Configuartion\obj\Debug\Configuartion.dll
+D:\Project\Rigil\DMS\CodeFiles\DMS\Configuartion\obj\Debug\Configuartion.pdb

@@ -1,0 +1,30 @@
+
+Log Entry : 
+04/06/2017 15:08:17
+UserLogin  LoginUserDetails http://localhost:9464/UserLogin.svc. Error Message:The connection string for the database 'DMS' does not exist or does not have a valid provider.
+   at Microsoft.Practices.EnterpriseLibrary.Data.DatabaseProviderFactory.DatabaseConfigurationBuilder.<Create>b__3(String n)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Practices.EnterpriseLibrary.Data.DatabaseProviderFactory.DatabaseConfigurationBuilder.Create(String name)
+   at Microsoft.Practices.EnterpriseLibrary.Data.DatabaseProviderFactory.Create(String name)
+   at DataLayer.AuthorizationDAL..ctor() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DataLayer\AuthorizationDAL.cs:line 25
+   at BusinessLayer.AuthorizationBL..ctor() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\BusinessLayer\AuthorizationBL.cs:line 18
+   at WcfServiceDMS.UserLogin.LoginUserDetails(UserDetails userInfo) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\WcfServiceDMS\UserLogin.svc.cs:line 25
+__________________________
+
+Log Entry : 
+04/06/2017 15:10:12
+UserLogin  LoginUserDetails http://localhost:9464/UserLogin.svc. Error Message:Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BusinessLayer.AuthorizationBL.Login(AccessControlModel ac) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\BusinessLayer\AuthorizationBL.cs:line 59
+   at WcfServiceDMS.UserLogin.LoginUserDetails(UserDetails userInfo) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\WcfServiceDMS\UserLogin.svc.cs:line 28
+__________________________
+
+Log Entry : 
+04/06/2017 15:25:09
+UserLogin  LoginUserDetails http://localhost:9464/UserLogin.svc. Error Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at BusinessLayer.AuthorizationBL.Login(AccessControlModel ac) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\BusinessLayer\AuthorizationBL.cs:line 62
+   at WcfServiceDMS.UserLogin.LoginUserDetails(UserDetails userInfo) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\WcfServiceDMS\UserLogin.svc.cs:line 28
+__________________________

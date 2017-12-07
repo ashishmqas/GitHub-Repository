@@ -1,0 +1,6 @@
+
+Log Entry : 
+03/31/2017 13:41:45
+AuditReport  SetCompany http://localhost:12801/ISO/AuditReportfrmPrint.aspx?q=Kars_11. Error Message:Object reference not set to an instance of an object.
+   at DMS.ISO.AuditReport.SetCompany() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx.cs:line 45
+__________________________

@@ -1,0 +1,7 @@
+
+Log Entry : 
+04/05/2017 18:12:33
+QuotationRequestfrm  btnSave_Click http://localhost:12801/ISO/QuotationRequestfrm.aspx?q=Kars_11. Error Message:Object reference not set to an instance of an object.
+   at MSCaptcha.CaptchaControl.ValidateCaptcha(String userEntry)
+   at DMS.ISO.QuotationRequestfrm.btnSave_Click(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrm.aspx.cs:line 566
+__________________________

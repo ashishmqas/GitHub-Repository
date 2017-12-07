@@ -1,0 +1,16 @@
+
+Log Entry : 
+04/05/2017 16:16:20
+assignroles  GetEmployeeRoles http://localhost:12801/admin/assignroles.aspx. Error Message:Column 'roleid' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.admin.assignroles.GetEmployeeRoles() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 173
+__________________________
+
+Log Entry : 
+04/05/2017 16:16:23
+assignroles  GetEmployeeRoles http://localhost:12801/admin/assignroles.aspx. Error Message:Column 'roleid' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.admin.assignroles.GetEmployeeRoles() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\admin\assignroles.aspx.cs:line 173
+__________________________

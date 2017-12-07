@@ -1,0 +1,8 @@
+
+Log Entry : 
+03/24/2017 14:47:35
+QuotationRequestfrm  BindRepetorValue http://localhost:12801/ISO/QuotationRequestfrm.aspx?q=Kars_11. Error Message:Column 'id' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.ISO.QuotationRequestfrm.BindRepetorValue(String p) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\QuotationRequestfrm.aspx.cs:line 129
+__________________________

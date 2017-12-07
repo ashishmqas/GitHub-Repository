@@ -1,0 +1,16 @@
+
+Log Entry : 
+04/04/2017 14:09:36
+AuditorAuditList  BindRepeator http://localhost:12801/ISO/AuditorAuditList.aspx. Error Message:Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BusinessLayer.AuditProgramBL.AuditorAssignedTask(AssignAuditorModel aa) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\BusinessLayer\AuditProgramBL.cs:line 50
+   at DMS.ISO.AuditorAuditList.BindRepeator() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditorAuditList.aspx.cs:line 41
+__________________________
+
+Log Entry : 
+04/04/2017 14:10:22
+AuditorAuditList  BindRepeator http://localhost:12801/ISO/AuditorAuditList.aspx. Error Message:Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at BusinessLayer.AuditProgramBL.AuditorAssignedTask(AssignAuditorModel aa) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\BusinessLayer\AuditProgramBL.cs:line 50
+   at DMS.ISO.AuditorAuditList.BindRepeator() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditorAuditList.aspx.cs:line 41
+__________________________

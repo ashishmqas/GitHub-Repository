@@ -1,0 +1,69 @@
+
+Log Entry : 
+04/03/2017 15:44:36
+AuditReportfrmPrint  SetCompany http://localhost:12801/ISO/AuditReportfrmPrint.aspx?q=Kars_11&p=18. Error Message:DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'description'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.iso_auditreportfrmprint_aspx.__DataBind__control12(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx:line 52
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at DMS.ISO.AuditReportfrmPrint.SetCompany() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx.cs:line 224
+__________________________
+
+Log Entry : 
+04/03/2017 15:45:08
+AuditReportfrmPrint  SetCompany http://localhost:12801/ISO/AuditReportfrmPrint.aspx?q=Kars_11&p=18. Error Message:DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'siteaddress'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.iso_auditreportfrmprint_aspx.__DataBind__control12(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx:line 52
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at DMS.ISO.AuditReportfrmPrint.SetCompany() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx.cs:line 216
+__________________________
+
+Log Entry : 
+04/03/2017 15:45:14
+AuditReportfrmPrint  SetCompany http://localhost:12801/ISO/AuditReportfrmPrint.aspx?q=Kars_11&p=18. Error Message:DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'siteaddress'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.iso_auditreportfrmprint_aspx.__DataBind__control12(Object sender, EventArgs e) in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx:line 52
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.Repeater.DataBind()
+   at DMS.ISO.AuditReportfrmPrint.SetCompany() in d:\Ashish\Project\MQAS\DMS\CodeFiles\DMS\DMS\ISO\AuditReportfrmPrint.aspx.cs:line 216
+__________________________
